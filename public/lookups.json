@@ -1,0 +1,369 @@
+{
+  "regions": [
+    { "id": "F", "label": "Foundational" },
+    { "id": "W", "label": "Western" },
+    { "id": "EA", "label": "East Asian" },
+    { "id": "IN", "label": "Indian" },
+    { "id": "INTL", "label": "International" }
+  ],
+  "families": [
+    {
+      "id": "MA",
+      "label": "Memory-Architecture",
+      "description": "Mechanisms that structure memory or build mental schemas."
+    },
+    {
+      "id": "C/D",
+      "label": "Compression/Decomposition",
+      "description": "Mechanisms that break down or organize complex information."
+    },
+    {
+      "id": "EC",
+      "label": "Error-Correction",
+      "description": "Mechanisms focused on feedback and correcting mistakes."
+    },
+    {
+      "id": "SC",
+      "label": "Social-Coordination",
+      "description": "Mechanisms that use social dynamics to organize learning."
+    },
+    {
+      "id": "ST",
+      "label": "Situated-Transfer",
+      "description": "Mechanisms that embed learning in authentic contexts."
+    },
+    {
+      "id": "CB/A",
+      "label": "Case-Based / Argumentative",
+      "description": "Mechanisms based on reasoning through cases or arguments."
+    }
+  ],
+  "eraSystems": [
+    {
+      "id": "W_PERIODS",
+      "region_id": "W",
+      "label": "Western Periods"
+    },
+    {
+      "id": "EA_DYNASTIC",
+      "region_id": "EA",
+      "label": "Chinese/Japanese/Korean dynastic eras"
+    },
+    {
+      "id": "I_PERIODS",
+      "region_id": "IN",
+      "label": "Indian Eras"
+    }
+  ],
+  "streams": [
+    { "id": "W_GRECO_ROMAN", "region_id": "W", "label": "Greco-Roman" },
+    { "id": "W_SCHOLASTIC", "region_id": "W", "label": "Scholastic" },
+    { "id": "W_HUMANIST", "region_id": "W", "label": "Humanist" },
+    { "id": "W_PROGRESSIVE", "region_id": "W", "label": "Progressive" },
+    { "id": "W_GENERATIVE_AI", "region_id": "W", "label": "Generative AI" },
+    { "id": "EA_CONFUCIAN", "region_id": "EA", "label": "Confucian" },
+    { "id": "EA_ZEN", "region_id": "EA", "label": "Zen Buddhist" },
+    { "id": "EA_NEO_CONF", "region_id": "EA", "label": "Neo-Confucian" },
+    {
+      "id": "EA_MOD_NATIONAL",
+      "region_id": "EA",
+      "label": "Modern Nationalist"
+    },
+    { "id": "Sanskritic", "region_id": "IN", "label": "Sanskritic" },
+    {
+      "id": "Sanskritic (lineage)",
+      "region_id": "IN",
+      "label": "Sanskritic (Lineage)"
+    },
+    {
+      "id": "Sanskritic (yogic)",
+      "region_id": "IN",
+      "label": "Sanskritic (Yogic)"
+    },
+    {
+      "id": "Sanskritic (math/astronomy)",
+      "region_id": "IN",
+      "label": "Sanskritic (Math/Astro)"
+    },
+    {
+      "id": "Sanskritic (arts)",
+      "region_id": "IN",
+      "label": "Sanskritic (Arts)"
+    },
+    {
+      "id": "Sanskritic (Ayurveda)",
+      "region_id": "IN",
+      "label": "Sanskritic (Ayurveda)"
+    },
+    {
+      "id": "Sanskritic (math pedagogy)",
+      "region_id": "IN",
+      "label": "Sanskritic (Math Pedagogy)"
+    },
+    {
+      "id": "Sanskritic/Dravidian (Śilpa/Temple craft)",
+      "region_id": "IN",
+      "label": "Śilpa/Temple Craft"
+    },
+    {
+      "id": "Persianate–Islamic (madrasa)",
+      "region_id": "IN",
+      "label": "Persianate Madrasa"
+    },
+    {
+      "id": "Persianate–Islamic (maktab/halaqa)",
+      "region_id": "IN",
+      "label": "Persianate Maktab"
+    },
+    {
+      "id": "Persianate–Islamic (Mughal craft)",
+      "region_id": "IN",
+      "label": "Mughal Craft Atelier"
+    },
+    {
+      "id": "Persianate–Islamic (chancery/munshī)",
+      "region_id": "IN",
+      "label": "Persianate Chancery"
+    },
+    {
+      "id": "Persianate–Islamic (Unani)",
+      "region_id": "IN",
+      "label": "Unani Medicine"
+    },
+    {
+      "id": "Dravidian (Siddha)",
+      "region_id": "IN",
+      "label": "Siddha Medicine"
+    },
+    {
+      "id": "Buddhist–Jain",
+      "region_id": "IN",
+      "label": "Buddhist/Jain Monastic"
+    },
+    {
+      "id": "Colonial–Missionary",
+      "region_id": "IN",
+      "label": "Colonial/Missionary"
+    },
+    { "id": "Modern state", "region_id": "IN", "label": "Modern State" },
+    {
+      "id": "Nationalist reform (Nai Talim)",
+      "region_id": "IN",
+      "label": "Nationalist Reform"
+    },
+    {
+      "id": "Market coaching ecosystem",
+      "region_id": "IN",
+      "label": "Market Coaching"
+    },
+    {
+      "id": "Household/Market",
+      "region_id": "IN",
+      "label": "Household/Market"
+    },
+    {
+      "id": "Household/Village",
+      "region_id": "IN",
+      "label": "Household/Village"
+    },
+    { "id": "Household/Temple", "region_id": "IN", "label": "Household/Temple" }
+  ],
+  "eras": [
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_PREHISTORY",
+      "label": "Deep Prehistory",
+      "start_ce": -200000,
+      "end_ce": -3000
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_PROTO_SCRIBAL",
+      "label": "Proto-Scribal & Scribal Schools",
+      "start_ce": -3300,
+      "end_ce": -500
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_CLASSICAL_LITERATE",
+      "label": "Classical Literate Pedagogies",
+      "start_ce": -500,
+      "end_ce": 400
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_MONASTIC",
+      "label": "Christianisation & Monastic Regimes",
+      "start_ce": 400,
+      "end_ce": 1050
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_MEDIEVAL_UNIVERSITY",
+      "label": "High Medieval University & Scholasticism",
+      "start_ce": 1050,
+      "end_ce": 1350
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_HUMANISM_PRINT",
+      "label": "Humanism & Early Print Regime",
+      "start_ce": 1350,
+      "end_ce": 1550
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_CONFESSIONAL",
+      "label": "Confessional Systems & Methodisation",
+      "start_ce": 1520,
+      "end_ce": 1650
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_SCIENTIFIC",
+      "label": "Scientific Societies & Encyclopaedic Projects",
+      "start_ce": 1600,
+      "end_ce": 1750
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_MASS_SCHOOLING",
+      "label": "Mass Schooling & Teacher Training",
+      "start_ce": 1780,
+      "end_ce": 1910
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_CHILD_CENTERED",
+      "label": "Child-Centered Schooling & Studio Modernism",
+      "start_ce": 1840,
+      "end_ce": 1933
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_PROFESSIONAL_REFORMS",
+      "label": "Progressive & Professional-School Reforms",
+      "start_ce": 1890,
+      "end_ce": 1939
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_BEHAVIORIST",
+      "label": "Post-war Mass HE & Behaviorist Programs",
+      "start_ce": 1945,
+      "end_ce": 1975
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_COGNITIVE_TURN",
+      "label": "Cognitive Turn & DBER",
+      "start_ce": 1975,
+      "end_ce": 2005
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_PLATFORMIZED",
+      "label": "Platformized/Networked HE & Analytics",
+      "start_ce": 2005,
+      "end_ce": 2022
+    },
+    {
+      "system_id": "W_PERIODS",
+      "id": "W_GENERATIVE_AI",
+      "label": "Generative-AI/Co-Pilot Tutoring",
+      "start_ce": 2023,
+      "end_ce": 2025
+    },
+    {
+      "system_id": "EA_DYNASTIC",
+      "id": "EA_CLASSICAL",
+      "label": "Classical Foundations",
+      "start_ce": -1045,
+      "end_ce": 220
+    },
+    {
+      "system_id": "EA_DYNASTIC",
+      "id": "EA_SCHOL_BUD",
+      "label": "Scholastic Development & Buddhist Influence",
+      "start_ce": 220,
+      "end_ce": 907
+    },
+    {
+      "system_id": "EA_DYNASTIC",
+      "id": "EA_NEO_CONF_Peak",
+      "label": "Neo-Confucian Orthodoxy & Peak Traditionalism",
+      "start_ce": 907,
+      "end_ce": 1700
+    },
+    {
+      "system_id": "EA_DYNASTIC",
+      "id": "EA_LATE_IMP_EARLY_MOD",
+      "label": "Late Imperial Stability & Early Modernity",
+      "start_ce": 1700,
+      "end_ce": 1912
+    },
+    {
+      "system_id": "EA_DYNASTIC",
+      "id": "EA_MOD_HYBRID",
+      "label": "Modernization & Hybridization",
+      "start_ce": 1868,
+      "end_ce": 2100
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_VEDIC",
+      "label": "Vedic",
+      "start_ce": -1500,
+      "end_ce": -500
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_CLASSICAL",
+      "label": "Classical",
+      "start_ce": -500,
+      "end_ce": 500
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_EARLY_MEDIEVAL",
+      "label": "Early Medieval",
+      "start_ce": 500,
+      "end_ce": 1200
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_MEDIEVAL",
+      "label": "Medieval",
+      "start_ce": 1200,
+      "end_ce": 1700
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_EARLY_MODERN",
+      "label": "Early Modern",
+      "start_ce": 1700,
+      "end_ce": 1860
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_COLONIAL",
+      "label": "Colonial",
+      "start_ce": 1860,
+      "end_ce": 1947
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_POSTCOLONIAL",
+      "label": "Post-colonial",
+      "start_ce": 1947,
+      "end_ce": 1991
+    },
+    {
+      "system_id": "I_PERIODS",
+      "id": "I_CONTEMPORARY",
+      "label": "Contemporary",
+      "start_ce": 1991,
+      "end_ce": 2100
+    }
+  ]
+}
